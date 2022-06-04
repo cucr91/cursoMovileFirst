@@ -75,8 +75,7 @@ header img{
     width: 229px;
     height: 48px;
     background-color: var(--off-white);
-/*sombra
-*/
+/* sombra */
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     border: none;
     border-radius: 5px;
@@ -135,17 +134,19 @@ main{
     line-height: 1.6rem;
     color: var(--warm-black);
 }
-/*
+
 .table-slider{
-  display: flex;} 
-   gap: 25px;
+    display: block;
+    gap: 25px;
     height: 316px;
-    overflow-x: scroll;
+    overflow-x: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;  
- 
-*/ 
+}
+
 .main-currency-table{
+    display: block;
+    flex-direction: ;
     width: 70%;
     min-width: 235px;
     max-width: 500px;
@@ -170,7 +171,7 @@ main{
     color: var(--warm-black);
 }
 .currency-table--container{
-    width: ;
+    width: 100%;
     min-width: 230px;
     max-width: 300px;
     height: 250px;
@@ -451,7 +452,7 @@ main{
     display: flex;
     gap: 25px;
     height: 316px;
-    overflow-x: scroll;
+    overflow-x: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;  
 }
@@ -460,7 +461,7 @@ main{
     position: relative;
     scroll-snap-align: center;
     width: 70%;
-    min-width: 230px;
+    min-width: 200px;
     max-width: 300px;
     height: 250px;
     margin: 50px auto 0;
